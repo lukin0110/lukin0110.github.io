@@ -1,4 +1,3 @@
-lukin0110.github.com
-====================
+Setup cname:
+https://github.com/blog/315-cname-support-for-github-pages
 
-Github pages
