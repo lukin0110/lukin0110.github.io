@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Spark - Twitter Bootstrap & popular JavaScript on AWS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Spark : A cdn for libraries that often use: Twitter Bootstrap, require.js, etc..." />
+    <link href="//spark.lukin.be/css/twitter-bootstrap/2.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//spark.lukin.be/css/twitter-bootstrap/2.1.1/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!--<link href="//spark.lukin.be/css/prettify/1-jun-2011/prettify.css" rel="stylesheet">-->
+    <link href="http://twitter.github.com/bootstrap/assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Or may be this?? -->
+    <!--<script src="http://spark.lukin.be/js/html5shiv/3.6.2pre/html5shiv.min.js"></script>-->
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+                <a class="brand" href="/" style="color:white">Spark</a>
+                <div class="nav-collapse collapse">
+                    <ul class="nav">
+                        <li><a href="#javascript">JavaScript</a></li>
+                        <li class="dropdown">
+                            <a href="#bootstrap" class="dropdown-toggle" data-toggle="dropdown">Twitter Bootstrap <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#bootstrap">Bootstrap</a></li>
+                                <li><a href="#bootswatch">Bootswatch</a></li>
+                                <li><a href="#fontawesome">Font Awesome</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#advanced">Advanced</a></li>
+                    </ul>
+                    <a class="viewgithub pull-right" href="https://github.com/lukin0110/spark">View on Github</a>
+                </div><!--/.nav-collapse -->
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="hero-unit">
+            <p>Spark is a CDN (content distribution network) for
+                <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a>,
+                <a href="http://bootswatch.com/">Bootswatch</a>,
+                <a href="http://fortawesome.github.com/Font-Awesome/">Font Awsesome</a>,
+                some popular open-source JavaScript libraries and many more.
+                Spark uses <a href="http://aws.amazon.com/s3/">S3</a> and
+                <a href="http://aws.amazon.com/cloudfront/">CloudFront</a> to deliver the shizzle.
+            </p>
+        </div>
+
+        <!-- Example row of columns -->
+        <div class="row">
+            <div class="span12">
+                <a name="javascript"></a>
+                <section>
+                    <div class="page-header">
+                        <h2>JavaScript</h2>
+                    </div>
+                    <dl id="angular">
+                        <dt>AngularJS</dt>
+                        <dd><strong>snippet: </strong><code>&lt;script src="//spark.lukin.be/js/angular/1.0.2/angular.min.js"&gt;&lt;/script&gt;</code></dd>
+                        <dd><strong>view: </strong><a href="http://spark.lukin.be/js/angular/1.0.2/angular.min.js" target="_blank">spark.lukin.be/js/angular/1.0.2/angular.min.js</a></dd>	<dd><strong>site: </strong><a href="http://angularjs.org/" target="_blank">http://angularjs.org/</a></dd>
+                        <dd><strong>versions: </strong><span>1.0.2</span></dd>
+                    </dl>
+                    <dl id="backbone">
+                        <dt>Backbone.js</dt>
+                        <dd><strong>snippet: </strong><code>&lt;script src="//spark.lukin.be/js/backbone/0.9.2/backbone.min.js"&gt;&lt;/script&gt;</code></dd>
+                        <dd><strong>view: </strong><a href="http://spark.lukin.be/js/backbone/0.9.2/backbone.min.js" target="_blank">spark.lukin.be/js/backbone/0.9.2/backbone.min.js</a></dd>	<dd><strong>site: </strong><a href="http://backbonejs.org/" target="_blank">http://backbonejs.org/</a></dd>
+                        <dd><strong>versions: </strong><span>0.9.2</span></dd>
+                    </dl>
+                    <dl id="bonsai">
+                        <dt>BonsaiJS</dt>
+                        <dd><strong>snippet: </strong><code>&lt;script src="//spark.lukin.be/js/bonsai/0.4.0/bonsai.min.js"&gt;&lt;/script&gt;</code></dd>
+                        <dd><strong>view: </strong><a href="http://spark.lukin.be/js/bonsai/0.4.0/bonsai.min.js" target="_blank">spark.lukin.be/js/bonsai/0.4.0/bonsai.min.js</a></dd>	<dd><strong>site: </strong><a href="http://bonsaijs.org/" target="_blank">http://bonsaijs.org/</a></dd>
+                        <dd><strong>versions: </strong><span>0.4.0</span></dd>
+                    </dl>
+                    <dl id="dojo">
+                        <dt>Dojo</dt>
+                        <dd><strong>snippet: </strong><code>&lt;script src="//spark.lukin.be/js/dojo/1.8.1/dojo.min.js"&gt;&lt;/script&gt;</code></dd>
+                        <dd><strong>view: </strong><a href="http://spark.lukin.be/js/dojo/1.8.1/dojo.min.js" target="_blank">spark.lukin.be/js/dojo/1.8.1/dojo.min.js</a></dd>	<dd><strong>site: </strong><a href="http://dojotoolkit.org/" target="_blank">http://dojotoolkit.org/</a></dd>
+                        <dd><strong>versions: </strong><span>1.8.1</span></dd>
+                    </dl>
+                    <dl id="ember">
+                        <dt>Ember.js</dt>
+                        <dd><strong>snippet: </strong><code>&lt;script src="//spark.lukin.be/js/ember/1.0.pre/ember.min.js"&gt;&lt;/script&gt;</code></dd>
+                        <dd><strong>view: </strong><a href="http://spark.lukin.be/js/ember/1.0.pre/ember.min.js" target="_blank">spark.lukin.be/js/ember/1.0.pre/ember.min.js</a></dd>	<dd><strong>site: </strong><a href="http://emberjs.com/" target="_blank">http://emberjs.com/</a></dd>
+                        <dd><strong>versions: </strong><span>1.0.pre</span></dd>
+                    </dl>
+                    <dl id="html5shiv">
+                        <dt>html5shiv</dt>
+                        <dd><strong>snippet: </strong><code>&lt;script src="//spark.lukin.be/js/html5shiv/3.6.2pre/html5shiv.min.js"&gt;&lt;/script&gt;</code></dd>
+                        <dd><strong>view: </strong><a href="http://spark.lukin.be/js/html5shiv/3.6.2pre/html5shiv.min.js" target="_blank">spark.lukin.be/js/html5shiv/3.6.2pre/html5shiv.min.js</a></dd>	<dd><strong>site: </strong><a href="http://code.google.com/p/html5shiv/" target="_blank">http://code.google.com/p/html5shiv/</a></dd>
+                        <dd><strong>versions: </strong><span>3.6.2pre</span></dd>
+                    </dl>
+                    <dl id="jquery">
+                        <dt>jQuery</dt>
+                        <dd><strong>snippet: </strong><code>&lt;script src="//spark.lukin.be/js/jquery/1.7.2/jquery.min.js"&gt;&lt;/script&gt;</code></dd>
+                        <dd><strong>view: </strong><a href="http://spark.lukin.be/js/jquery/1.7.2/jquery.min.js" target="_blank">spark.lukin.be/js/jquery/1.7.2/jquery.min.js</a></dd>	<dd><strong>site: </strong><a href="http://jquery.com/" target="_blank">http://jquery.com/</a></dd>
+                        <dd><strong>versions: </strong><span>1.7.2,1.8.0,1.8.1,1.8.2</span></dd>
+                    </dl>
+                    <dl id="jquery-plugins">
+                        <dt>jQuery Plugins</dt>
+                        <dd><strong>snippet: </strong><code>&lt;script src="//spark.lukin.be/js/jquery-plugins/cookie/jquery-plugins.min.js"&gt;&lt;/script&gt;</code></dd>
+                        <dd><strong>view: </strong><a href="http://spark.lukin.be/js/jquery-plugins/cookie/jquery-plugins.min.js" target="_blank">spark.lukin.be/js/jquery-plugins/cookie/jquery-plugins.min.js</a></dd>	<dd><strong>site: </strong><a href="http://foo.bar/" target="_blank">http://foo.bar/</a></dd>
+                        <dd><strong>versions: </strong><span>cookie,easing,history,scrollTo,tools,validate</span></dd>
+                    </dl>
+                    <dl id="jqueryui">
+                        <dt>jQuery user interface</dt>
+                        <dd><strong>snippet: </strong><code>&lt;script src="//spark.lukin.be/js/jqueryui/1.9.0/jqueryui.min.js"&gt;&lt;/script&gt;</code></dd>
+                        <dd><strong>view: </strong><a href="http://spark.lukin.be/js/jqueryui/1.9.0/jqueryui.min.js" target="_blank">spark.lukin.be/js/jqueryui/1.9.0/jqueryui.min.js</a></dd>	<dd><strong>site: </strong><a href="http://jqueryui.com/" target="_blank">http://jqueryui.com/</a></dd>
+                        <dd><strong>versions: </strong><span>1.9.0</span></dd>
+                    </dl>
+                    <dl id="knockout">
+                        <dt>Knockout</dt>
+                        <dd><strong>snippet: </strong><code>&lt;script src="//spark.lukin.be/js/knockout/2.1.0/knockout.min.js"&gt;&lt;/script&gt;</code></dd>
+                        <dd><strong>view: </strong><a href="http://spark.lukin.be/js/knockout/2.1.0/knockout.min.js" target="_blank">spark.lukin.be/js/knockout/2.1.0/knockout.min.js</a></dd>	<dd><strong>site: </strong><a href="http://knockoutjs.com/" target="_blank">http://knockoutjs.com/</a></dd>
+                        <dd><strong>versions: </strong><span>2.1.0</span></dd>
+                    </dl>
+                    <dl id="modernizr">
+                        <dt>Modernizr</dt>
+                        <dd><strong>snippet: </strong><code>&lt;script src="//spark.lukin.be/js/modernizr/2.6.2/modernizr.min.js"&gt;&lt;/script&gt;</code></dd>
+                        <dd><strong>view: </strong><a href="http://spark.lukin.be/js/modernizr/2.6.2/modernizr.min.js" target="_blank">spark.lukin.be/js/modernizr/2.6.2/modernizr.min.js</a></dd>	<dd><strong>site: </strong><a href="http://modernizr.com/" target="_blank">http://modernizr.com/</a></dd>
+                        <dd><strong>versions: </strong><span>2.6.2</span></dd>
+                    </dl>
+                    <dl id="popcorn">
+                        <dt>Popcorn.js</dt>
+                        <dd><strong>snippet: </strong><code>&lt;script src="//spark.lukin.be/js/popcorn/1.3/popcorn.min.js"&gt;&lt;/script&gt;</code></dd>
+                        <dd><strong>view: </strong><a href="http://spark.lukin.be/js/popcorn/1.3/popcorn.min.js" target="_blank">spark.lukin.be/js/popcorn/1.3/popcorn.min.js</a></dd>	<dd><strong>site: </strong><a href="http://popcornjs.org/" target="_blank">http://popcornjs.org/</a></dd>
+                        <dd><strong>versions: </strong><span>1.3</span></dd>
+                    </dl>
+                    <dl id="prototype">
+                        <dt>Prototype</dt>
+                        <dd><strong>snippet: </strong><code>&lt;script src="//spark.lukin.be/js/prototype/1.7.1.0/prototype.min.js"&gt;&lt;/script&gt;</code></dd>
+                        <dd><strong>view: </strong><a href="http://spark.lukin.be/js/prototype/1.7.1.0/prototype.min.js" target="_blank">spark.lukin.be/js/prototype/1.7.1.0/prototype.min.js</a></dd>	<dd><strong>site: </strong><a href="http://prototypejs.org/" target="_blank">http://prototypejs.org/</a></dd>
+                        <dd><strong>versions: </strong><span>1.7.1.0</span></dd>
+                    </dl>
+                    <dl id="require">
+                        <dt>RequireJS</dt>
+                        <dd><strong>snippet: </strong><code>&lt;script src="//spark.lukin.be/js/require/2.0.6/require.min.js"&gt;&lt;/script&gt;</code></dd>
+                        <dd><strong>view: </strong><a href="http://spark.lukin.be/js/require/2.0.6/require.min.js" target="_blank">spark.lukin.be/js/require/2.0.6/require.min.js</a></dd>	<dd><strong>site: </strong><a href="http://requirejs.org/" target="_blank">http://requirejs.org/</a></dd>
+                        <dd><strong>versions: </strong><span>2.0.6</span></dd>
+                    </dl>
+                    <dl id="sizzle">
+                        <dt>Sizzle</dt>
+                        <dd><strong>snippet: </strong><code>&lt;script src="//spark.lukin.be/js/sizzle/1.8.1/sizzle.min.js"&gt;&lt;/script&gt;</code></dd>
+                        <dd><strong>view: </strong><a href="http://spark.lukin.be/js/sizzle/1.8.1/sizzle.min.js" target="_blank">spark.lukin.be/js/sizzle/1.8.1/sizzle.min.js</a></dd>	<dd><strong>site: </strong><a href="http://sizzlejs.com/" target="_blank">http://sizzlejs.com/</a></dd>
+                        <dd><strong>versions: </strong><span>1.8.1</span></dd>
+                    </dl>
+                    <dl id="sock">
+                        <dt>SockJS</dt>
+                        <dd><strong>snippet: </strong><code>&lt;script src="//spark.lukin.be/js/sock/0.3/sock.min.js"&gt;&lt;/script&gt;</code></dd>
+                        <dd><strong>view: </strong><a href="http://spark.lukin.be/js/sock/0.3/sock.min.js" target="_blank">spark.lukin.be/js/sock/0.3/sock.min.js</a></dd>	<dd><strong>site: </strong><a href="http://sockjs.org/" target="_blank">http://sockjs.org/</a></dd>
+                        <dd><strong>versions: </strong><span>0.3</span></dd>
+                    </dl>
+                    <dl id="socket.io">
+                        <dt>Socket.IO</dt>
+                        <dd><strong>snippet: </strong><code>&lt;script src="//spark.lukin.be/js/socket.io/0.9.10/socket.io.min.js"&gt;&lt;/script&gt;</code></dd>
+                        <dd><strong>view: </strong><a href="http://spark.lukin.be/js/socket.io/0.9.10/socket.io.min.js" target="_blank">spark.lukin.be/js/socket.io/0.9.10/socket.io.min.js</a></dd>	<dd><strong>site: </strong><a href="http://socket.io/" target="_blank">http://socket.io/</a></dd>
+                        <dd><strong>versions: </strong><span>0.9.10</span></dd>
+                    </dl>
+                    <dl id="underscore">
+                        <dt>Underscore.js</dt>
+                        <dd><strong>snippet: </strong><code>&lt;script src="//spark.lukin.be/js/underscore/1.4.2/underscore.min.js"&gt;&lt;/script&gt;</code></dd>
+                        <dd><strong>view: </strong><a href="http://spark.lukin.be/js/underscore/1.4.2/underscore.min.js" target="_blank">spark.lukin.be/js/underscore/1.4.2/underscore.min.js</a></dd>	<dd><strong>site: </strong><a href="http://underscorejs.org/" target="_blank">http://underscorejs.org/</a></dd>
+                        <dd><strong>versions: </strong><span>1.4.2</span></dd>
+                    </dl>
+                </section>
+            </div>
+
+            <div class="span12">
+                <a name="bootstrap"></a>
+                <section>
+                    <div class="page-header">
+                        <h2>Bootstrap</h2>
+                    </div>
+                </section>
+            </div>
+
+            <div class="span12">
+                <a href="bootswatch"></a>
+                <section>
+                    <div class="page-header">
+                        <h2>Bootswatch</h2>
+                    </div>
+
+                </section>
+            </div>
+
+            <div class="span12">
+                <a href="fontawesome"></a>
+                <section>
+                    <div class="page-header">
+                        <h2>Font Awesome</h2>
+                    </div>
+
+                </section>
+            </div>
+
+            <div class="span12">
+                <a name="advanced"></a>
+                <section>
+                    <div class="page-header">
+                        <h2>Advanced</h2>
+                    </div>
+
+                    <p>Spark can be loaded from 4 different locations. Check out Rule 2 of <a href="http://shop.oreilly.com/product/9780596529307.do">High Performance Web Sites</a> by Steve Souders</p>
+                    <ul>
+                        <li><a href="http://spark.lukin.be">http://spark.lukin.be</a> (default)</li>
+                        <li><a href="http://spark1.lukin.be">http://spark1.lukin.be</a> (parallel)</li>
+                        <li><a href="http://spark2.lukin.be">http://spark2.lukin.be</a> (parallel)</li>
+                        <li><a href="http://d10baajdvc8wz6.cloudfront.net">http://d10baajdvc8wz6.cloudfront.net</a> (parallel)</li>
+                    </ul>
+
+                    <strong>You want to use HTTPS?</strong>
+                    <ul>
+
+                        <li><a href="https://d10baajdvc8wz6.cloudfront.net">https://d10baajdvc8wz6.cloudfront.net</a></li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+
+        <hr>
+        <footer>
+            <p>Spark 2012</p>
+        </footer>
+    </div> <!-- /container -->
+
+    <script src="http://spark.lukin.be/js/jquery/1.7.2/jquery.min.js"></script>
+    <script src="http://spark.lukin.be/css/twitter-bootstrap/2.1.1/js/bootstrap.min.js"></script>
+    <script src="http://spark.lukin.be/css/prettify/1-jun-2011/prettify.js"></script>
+
+    <script>
+        (function(){
+                // Pretty print some code snippets
+                window.prettyPrint && prettyPrint();
+        })();
+    </script>
+</body>
+</html>
+
+<!--
+        <pre class="prettyprint linenums">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Bootstrap 101 Template&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Hello, world!&lt;/h1&gt;
+    &lt;script src="http://code.jquery.com/jquery-latest.js"&gt;&lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+-->

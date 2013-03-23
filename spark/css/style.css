@@ -1,0 +1,42 @@
+body {
+    font-size: 13px;
+}
+
+.navbar {
+    font-size: 14px;
+}
+
+.viewgithub {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    z-index: 10;
+    padding: 15px 50px 15px 15px;
+    color: white;
+    background: url('../img/blacktocat.png') #0090FF no-repeat 95% 50%;
+    font-weight: 700;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.viewgithub:hover {
+    color:white;text-decoration: none;
+    background-color:green;
+}
+
+.hero-unit {
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding: 30px 30px 20px 30px;
+}
+
+.page-header {padding-bottom:0;margin: 10px 0 20px 0;}
+.page-header h2 {font-size: 18px;padding:0;margin: 0;}
+
+@media (max-width: 979px) {
+    .viewgithub {
+        display: none;
+    }
+}
