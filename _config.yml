@@ -1,0 +1,12 @@
+# Site settings
+title: Lukin - Maarten Huijsmans
+email: maarten@lukin.be
+description: > # this means to ignore newlines until "baseurl:"
+  Hello World
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://lukin.be" # the base hostname & protocol for your site
+twitter_username: lukin0110
+github_username:  lukin0110
+
+# Build settings
+markdown: kramdown
