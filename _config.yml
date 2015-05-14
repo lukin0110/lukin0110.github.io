@@ -1,5 +1,5 @@
 # Site settings
-title: Lukin - Maarten Huijsmans
+title: Lukin
 email: maarten@lukin.be
 description: > # this means to ignore newlines until "baseurl:"
   Hello World
@@ -10,3 +10,7 @@ github_username:  lukin0110
 
 # Build settings
 markdown: kramdown
+
+sass:
+  sass_dir: _sass
+  style: compressed

@@ -1,23 +1,45 @@
 ---
 layout: default
+fullbg: true
 ---
 
-<div class="home">
+<div class="container intro">
+  <div class="page-header lead">
+    <h1>Maarten Huijsmans</h1>
+    <h2>Android Developer</h2>
+  </div>
 
-  <h1 class="page-heading">Posts</h1>
+  <p class="lead">I am a Freelance Android Developer with several years of experience in building apps. I also have
+      a lot of experience with backend development in Python & Java and building realtime webapps with.
+      I love new technologies and challenging projects.</p>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <p class="lead">Get in touch: <a href="mailto:maarten@lukin.be">maarten@lukin.be</a></p>
+</div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+<div class="container cloud">
+    <div class="page-header lead">
+        <h1>Technology Cloud</h1>
+    </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+    <div class="lead">
+        <span class="p2">android</span>
+        <span>css3</span>
+        <span class="p1">Amazon Web Service</span>
+        <span>iOS (Objective C & Swift)</span>
+        <span class="p2">java</span>
+        <span>html5</span>
+        <span class="p1">node.js</span>
+        <span>mysql</span>
+        <span>javascript</span>
+        <span class="p1">django</span>
+        <span>websockets</span>
+        <span>php</span>
+        <span>postgresql</span>
+        <span>redis</span>
+        <span>drupal</span>
+        <span class="p2">python</span>
+        <span class="p1">google app engine</span>
+        <span>redis</span>
+        <span>git</span>
+    </div>
 </div>
