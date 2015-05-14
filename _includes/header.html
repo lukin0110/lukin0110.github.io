@@ -1,0 +1,15 @@
+<!-- Fixed navbar -->
+<nav class="navbar navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      {% if page.fullbg != true %}<a class="navbar-brand" href="/">@lukin0110</a>{% endif %}
+    </div>
+    <div id="navbar" class="collapse navbar-collapse pull-right">
+      <ul class="nav navbar-nav">
+        <li><a class="page-link {% if page.url == '/projects/' %}active{% endif %}" href="/projects/">Projects</a></li>
+        <li><a class="page-link {% if page.url == '/about/' %}active{% endif %}" href="/about/">About</a></li>
+        <li><a class="page-link {% if page.url == '/blog/' %}active{% endif %}" href="/blog/">Blog</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</nav>
