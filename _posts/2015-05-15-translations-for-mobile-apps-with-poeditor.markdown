@@ -13,7 +13,7 @@ I work at [VikingCo][vikingco] on the [Viking App][vikingapp] & [Viking Talk][vi
 translations as well. I always want to focus on building products and avoid *monkey jobs* as much as
 possible, so I got a little off track with my hobby project and started to write plugins for POEditor :)
 
-Translation Problems
+Translation problems
 --------------------
 For small projects you can email translation files around but once the project & team grows this becomes very annoying.
 
@@ -33,7 +33,7 @@ POEditor API
 -------------
 The cool thing is, they have a full featured [API][api]. They leave the implementation for plugins & clients to third
 party developers. For the apps I wanted to automate even more and make the translation management part of the build
-process. Therefore i wrote 2 plugins in my spare time that uses the API to manage translations:
+process. Therefore I wrote 2 plugins in my spare time that uses the API to manage translations:
 
 * a [Gradle][gradle] plugin for Android/Java
 * a command line tool for iOS & Windows Phone
@@ -43,7 +43,7 @@ Translations for Android in Gradle
 By adding a simple config to your `build.gradle` file you can manage translations via the gradle build system. The
 plugin provides a few commands to *push* and *pull* translations. It's inspired by the Transifex client.
 The repository: [poeditor-gradle][github-gradle]. This plugin depends on a [Java implementation][github-java] of
-the API that i wrote as well.
+the API that I wrote as well.
 
 ### 1. Install
 Add the following 2 lines of code to your `gradle.build` file.
