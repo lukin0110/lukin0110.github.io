@@ -9,7 +9,7 @@ categories: translations tools
 
 I work at [VikingCo][vikingco] on the [Viking App][vikingapp] & [Viking Talk][vikingtalk]. These apps are available on
 3 platforms: Android, iOS & Windows Phone. The apps are available in 4 different languages. At VikingCo we've chosen
-[POEditor][poeditor]. A few weeks ago a started on a hobby Android project, which i hope to finish soon, and I need
+[POEditor][poeditor]. A few weeks ago a started on a hobby Android project, which I hope to finish soon, and I need
 translations as well. I always want to focus on building products and avoid *monkey jobs* as much as
 possible, so I got a little off track with my hobby project and started to write plugins for POEditor :)
 
