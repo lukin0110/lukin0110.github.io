@@ -10,9 +10,9 @@ permalink: /:year/:month/:day/:title.html
 
 I work at [VikingCo][vikingco] on the [Viking App][vikingapp] & [Viking Talk][vikingtalk]. These apps are available on
 3 platforms: Android, iOS & Windows Phone. The apps are available in 4 different languages. At VikingCo we've chosen
-[POEditor][poeditor]. A few weeks ago a started on hobby Android project, which i hope to finish soon, and I need
+[POEditor][poeditor]. A few weeks ago a started on a hobby Android project, which i hope to finish soon, and I need
 translations as well. I always want to focus on building products and avoid *monkey jobs* as much as
-possible, so I got a little of track with my hobby project and started to write plugins for POEditor :)
+possible, so I got a little off track with my hobby project and started to write plugins for POEditor :)
 
 Translation Problems
 --------------------
@@ -32,7 +32,7 @@ those different files around... bleh.
 
 POEditor API
 -------------
-The cool thing is they have a full featured [API][api]. They leave the implementation for plugins & clients to third
+The cool thing is, they have a full featured [API][api]. They leave the implementation for plugins & clients to third
 party developers. For the apps I wanted to automate even more and make the translation management part of the build
 process. Therefore i wrote 2 plugins in my spare time that uses the API to manage translations:
 
@@ -106,7 +106,7 @@ A few example configurations can be found in the [example projects][example] fol
 
 Manage translations like a boss from the command line
 -----------------------------------------------------
-This tool is written in Python and adds the `poeditor` cmd to your environment, now you can use it your terminal.
+This tool is written in Python and adds the `poeditor` cmd to your environment, now you can use it in the terminal.
 It uses a configuration, similar to the gradle plugin, to manage translations. Again, you can *push* and *pull*
 translations from POEditor. I've used the [Python API implementation][github-python]
 of Sporteasy. Source code of the client can be found on [GitHub][github-client]
@@ -143,7 +143,7 @@ trans.fr = App/src/main/res/values-fr/strings.xml
 {% endhighlight %}
 
 ### 3. Usage
-After your have created your translation project on POEditor you can can initialize your project based on your
+After your have created your translation project on POEditor you can initialize your project based on your
 configuration. The cmd will load the `.poeditor` file in the directory where you're executing the command.
 
 Download translations:
