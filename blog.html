@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Blog
+title: Blog - Lukin
 permalink: /blog/
 ---
 
@@ -14,9 +14,15 @@ permalink: /blog/
         </div>
 
         <article class="post-content lead">
-            {{ post.content }}
+            {{ post.excerpt }}
         </article>
+
+        <div class="row text-center">
+            <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-outline btn-lg">Read more</a>
+        </div>
     {% endfor %}
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <div class="text-center">
+           <p class="rss-subscribe">Be notified of new posts. <a href="{{ "/feed.xml" | prepend: site.baseurl }}">Subscribe to the RSS feed.</a></p>
+    </div>
 </div>
