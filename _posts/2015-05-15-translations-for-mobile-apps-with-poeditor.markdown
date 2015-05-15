@@ -5,7 +5,6 @@ keywords: "android, translations, gradle, poeditor, plugins, command line, mobil
 date:   2015-05-15 12:00:00
 author: Maarten
 categories: translations tools
-permalink: /:year/:month/:day/:title.html
 ---
 
 I work at [VikingCo][vikingco] on the [Viking App][vikingapp] & [Viking Talk][vikingtalk]. These apps are available on

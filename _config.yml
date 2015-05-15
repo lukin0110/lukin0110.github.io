@@ -14,3 +14,10 @@ markdown: kramdown
 sass:
   sass_dir: _sass
   style: compressed
+
+defaults:
+  -
+    scope:
+      type: "posts"
+    values:
+      permalink: /:year/:month/:day/:title.html
