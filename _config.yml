@@ -1,8 +1,7 @@
 # Site settings
 title: Lukin
 email: maarten@lukin.be
-description: > # this means to ignore newlines until "baseurl:"
-  Hello World
+description: Lukin - Freelance Android Developer
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://lukin.be" # the base hostname & protocol for your site
 twitter_username: lukin0110
