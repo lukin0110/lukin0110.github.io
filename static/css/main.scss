@@ -87,7 +87,7 @@ code {
   font-size: 80%;
 }
 
-.intro, .cloud {
+.intro, .cloud, .contact {
   color: #fff;
   width: 700px;
   text-align: center;
@@ -121,6 +121,13 @@ code {
   .p1{font-size: 29px;}
   .p2{font-size: 37px;}
   .p3{font-size: 45px;}
+}
+
+.contact {
+  margin-top: 50px;
+
+  .text-right{text-align: right;}
+  .text-left{text-align: left;}
 }
 
 .navbar{
