@@ -1,1 +1,54 @@
+==================================================================
+https://keybase.io/lukin0110
+--------------------------------------------------------------------
 
+I hereby claim:
+
+  * I am an admin of http://lukin.be
+  * I am lukin0110 (https://keybase.io/lukin0110) on keybase.
+  * I have a public key ASD1-KJaIm7rbz_FfRUmv0u1st5HVhGdPwCAaJXLufZLfgo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120f5f8a25a226eeb6f3fc57d1526bf4bb5b2de4756119d3f00806895cbb9f64b7e0a",
+            "host": "keybase.io",
+            "kid": "0120f5f8a25a226eeb6f3fc57d1526bf4bb5b2de4756119d3f00806895cbb9f64b7e0a",
+            "uid": "891c0147254424df76a071ced0c05119",
+            "username": "lukin0110"
+        },
+        "service": {
+            "hostname": "lukin.be",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.17"
+    },
+    "ctime": 1474975568,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1474975212,
+        "hash": "77950c4ae4596ccb84d4e5fdac3b228c51502dde665835fd87a83bb5d50ae2aa09d10ad390f578ad3792893e21162a245779cea37d10c0330169381b257ab9e5",
+        "seqno": 654704
+    },
+    "prev": "6dd22a22cbda20faadc7b0470dfdbfa4ad9a6424112b56aeb218fc82b08be2e7",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg9fiiWiJu628/xX0VJr9LtbLeR1YRnT8AgGiVy7n2S34Kp3BheWxvYWTFAvB7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZjVmOGEyNWEyMjZlZWI2ZjNmYzU3ZDE1MjZiZjRiYjViMmRlNDc1NjExOWQzZjAwODA2ODk1Y2JiOWY2NGI3ZTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZjVmOGEyNWEyMjZlZWI2ZjNmYzU3ZDE1MjZiZjRiYjViMmRlNDc1NjExOWQzZjAwODA2ODk1Y2JiOWY2NGI3ZTBhIiwidWlkIjoiODkxYzAxNDcyNTQ0MjRkZjc2YTA3MWNlZDBjMDUxMTkiLCJ1c2VybmFtZSI6Imx1a2luMDExMCJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoibHVraW4uYmUiLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE3In0sImN0aW1lIjoxNDc0OTc1NTY4LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0NzQ5NzUyMTIsImhhc2giOiI3Nzk1MGM0YWU0NTk2Y2NiODRkNGU1ZmRhYzNiMjI4YzUxNTAyZGRlNjY1ODM1ZmQ4N2E4M2JiNWQ1MGFlMmFhMDlkMTBhZDM5MGY1NzhhZDM3OTI4OTNlMjExNjJhMjQ1Nzc5Y2VhMzdkMTBjMDMzMDE2OTM4MWIyNTdhYjllNSIsInNlcW5vIjo2NTQ3MDR9LCJwcmV2IjoiNmRkMjJhMjJjYmRhMjBmYWFkYzdiMDQ3MGRmZGJmYTRhZDlhNjQyNDExMmI1NmFlYjIxOGZjODJiMDhiZTJlNyIsInNlcW5vIjo5LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQJMBZuUr6TjqIMvoM7LbaMqTe3G0D+IQkRW/9O70IL0G/3ykJVYXLacwl+/XXytGxKhsiJTdodApGcBZlFvU2ACoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCAc5lyXWpNpbzUMinWJ45NL+cbC6yvp+QYt8sDIB2pV4qN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/lukin0110
+
+==================================================================
