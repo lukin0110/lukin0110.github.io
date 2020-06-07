@@ -1,8 +1,5 @@
 # Lukin Personal Homepage
 
-## TODO
-- Setup Netlify + DNS
-
 ## Commands
 
 Build
