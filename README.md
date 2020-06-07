@@ -1,22 +1,22 @@
-Lukin
-=====
+# Lukin Personal Homepage
 
-Setup page
------------
-* Setup github user page: https://help.github.com/articles/user-organization-and-project-pages
-* Setup cname: https://github.com/blog/315-cname-support-for-github-pages
+## TODO
+- Setup Netlify + DNS
 
-Jekyll
-------
-```
-jekyll new website
+## Commands
+
+Build
+```bash
+hugo -D --minify
 ```
 
-Serve:
-```
-jekyll serve
+Dev server
+```bash
+hugo server --minify --ignoreCache
+hugo server --ignoreCache
 ```
 
-Icons:
-* https://github.com/barryclark/jekyll-now/blob/master/_includes/svg-icons.html
-* http://fortawesome.github.io/Font-Awesome/icons/#brand
+Dev server with SCSS reload:
+```bash
+hugo server -w --noHTTPCache --disableFastRender -v
+```

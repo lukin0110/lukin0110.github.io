@@ -1,0 +1,12 @@
+baseURL = "https://lukin.be/"
+languageCode = "eb"
+title = "Maarten Huijsmans - @lukin0110"
+
+enableRobotsTXT = true
+
+[markup.goldmark.renderer]
+unsafe= true
+
+[Author]
+  name = "Peter Meter vzw"
+  email = "maarten@lukin.be"
