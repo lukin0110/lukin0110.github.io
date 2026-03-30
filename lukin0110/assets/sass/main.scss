@@ -1147,6 +1147,24 @@
 		}
 	}
 
+/* Tech Chips */
+
+	.tech-chips {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.4em;
+		margin-top: 0.75em;
+
+		span {
+			background-color: _palette(accent1, bg);
+			color: _palette(accent1, fg-bold);
+			border-radius: 2em;
+			font-size: 0.75em;
+			padding: 0.25em 0.75em;
+			white-space: nowrap;
+		}
+	}
+
 /* Header */
 
 	#header {

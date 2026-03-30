@@ -7,10 +7,10 @@
 		<meta name="theme-color" content="#4acaa8"/>
 		<link rel="dns-prefetch" href="//fonts.googleapis.com"/>
 		<title>Maarten Huijsmans - @lukin0110 🚀</title>
-    <meta name="description" content="I'm Maarten Huijsmans, a Freelance Senior Software Engineer & Team Lead. I help you with complex Python, Computer Vision and Machine Learning projects.">
-    <meta name="keywords" content="maarten, huijsmans, freelance, software engineer, python, fastapi, django, docker, data scraping, Amazon Web Services, computer vision, Google Cloud">
+		<meta name="description" content="I'm Maarten Huijsmans, a Freelance Senior Software Engineer & Team Lead. I help teams build robust Python backends, cloud systems, and AI-powered products — including agentic systems and ML deployments.">
+		<meta name="keywords" content="maarten, huijsmans, freelance, software engineer, python, fastapi, django, docker, data scraping, Amazon Web Services, computer vision, Google Cloud">
 		{{ $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
-    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+		<link rel="stylesheet" href="{{ $style.RelPermalink }}">
 		<link rel="shortcut icon" href="/images/favicon.ico">
 		<link rel="canonical" href="{{ .Permalink }}">
     <link rel="shortlink" href="{{ .Permalink }}">
@@ -49,22 +49,12 @@
 					<div id="main">
 						<!-- One -->
 							<section id="about">
-								<!--
-								<div class="container" style="background-color: #4acaa8; padding: 1em 2em 0.2em 2em  !important;">
-									<h2 style="color: white">Vaccinatie cijfers per gemeente 💉</h2>
-									<p style="color: #d2f2e9;">Ik onderhoud momenteel een pagina met vaccinatie cijfers per gemeente.💚<br>
-										Hiervoor verwijs ik je door naar <a href="https://vaccinaties.lukin.be" style="color: white !important;">vaccinaties.lukin.be</a>.
-									</p>
-								</div>
-								-->
 								<div class="container">
 									<header class="major">
 										<h2>Maarten Huijsmans</h2>
-										<p>Freelance Senior Software Engineer 👨‍💻<br/>Python Developer & Cloud Architect 🚀</p>
+										<p>Freelance Senior Software Engineer 👨‍💻<br/>Python · Cloud · AI-Native 🤖</p>
 									</header>
-									<p>I imagine, hack, shape and build high quality software products. I have several years of experience
-										building distributed cloud systems. I can help you with complex <em>Python & Cloud projects</em> 
-										(<em>API's, Data Engineering, Machine Learning deployments, ....</em>).</p>
+									<p>I design and build high-quality software products with a focus on reliability and clarity. I have extensive experience with distributed cloud systems and enjoy working on hard problems. Lately, I'm going deep on AI-native development - building agentic systems, integrating LLMs into products, and deploying machine learning at scale.</p>
 									<!--
 									<p>I've also co-founded a non-profit: <a href="https://humainly.com">Humainly</a>. Our goal is to
 										create fair digital job opportunities in economic depressed regions.</p>
@@ -76,19 +66,17 @@
 							<section id="thingsicando">
 								<div class="container">
 									<h3>Things I Can Do</h3>
-									<p>I prefer to work with the <a href="https://www.python.org/">Python</a>,
-										& <a href="https://nodejs.org/en/">Node</a> programming
-										languages. Lately I'm exploring <a href="https://www.rust-lang.org/">Rust</a>. I can build highly scalable software systems and deploy them with
-										<a href="https://www.docker.com/">Docker</a> &
+									<p>I primarily work with <a href="https://www.python.org/">Python</a> and <a href="https://nodejs.org/en/">Node</a>, and I've been picking up <a href="https://www.rust-lang.org/">Rust</a> on the side. I build scalable software systems, deploy them with
+										<a href="https://www.docker.com/">Docker</a> &amp;
 										<a href="https://kubernetes.io/">Kubernetes</a> on <a href="https://aws.amazon.com/">AWS</a> &amp;
-										<a href="https://cloud.google.com/">Google Cloud</a></p>
+										<a href="https://cloud.google.com/">Google Cloud</a>, and increasingly work with LLMs and agentic frameworks.</p>
 									<ul class="feature-icons">
 										<li class="icon solid fa-code">Build robust software</li>
-										<li class="icon solid fa-cubes">Build data scrapers</li>
+										<li class="icon solid fa-cubes">Build agentic systems</li>
 										<li class="icon solid fa-book">Build beautiful APIs</li>
 										<li class="icon solid fa-coffee">Drink coffee</li>
 										<li class="icon solid fa-bolt">Automate all the things</li>
-										<li class="icon solid fa-network-wired">Team leader</a></li>
+										<li class="icon solid fa-network-wired">Lead engineering teams</li>
 									</ul>
 								</div>
 							</section>
@@ -107,6 +95,13 @@
 													<p>Freelance Software Engineer - <a href="https://www.giveaday.eu/en-be">giveaday.eu</a></p>
 												</header>
 												<p>Give a Day is the Tinder of volunteering where we match volunteers and organisations. We work together with municipalities with a local volunteer matcher and a 360° volunteer manager. <strong>Let's go for a bigger impact through collaboration!</strong></p>
+												<div class="tech-chips">
+													<span>Node</span>
+													<span>Vue</span>
+													<span>Express</span>
+													<span>Azure</span>
+													<span>OpenAI</span>
+												</div>
 											</div>
 										</article>
 										<article>
@@ -116,11 +111,15 @@
 													<h4>De Lommelse Gazet</h4>
 													<p>Volunteer - <a href="https://www.delommelsegazet.be">delommelsegazet.be</a></p>
 												</header>
-                        <p>It's my pet project where I experiment with AI to enhance local journalism.</p>
-                        <p>De Lommelse Gazet is a <strong>volunteer-run local newspaper for the city of Lommel</strong>. 
-                          The platform collects and publishes local news, sports results, community initiatives, events, 
-                          and announcements to keep residents informed about what is happening in Lommel. 
-                        </p>											
+                        <p>My pet project - experimenting with AI to enhance local journalism.</p>
+                        <p>De Lommelse Gazet is a <strong>volunteer-run local newspaper for the city of Lommel</strong>, covering news, sports, community initiatives, and local events.</p>
+                        <div class="tech-chips">
+                          <span>Python</span>
+                          <span>FastAPI</span>
+                          <span>Pydantic AI</span>
+													<span>Claude AI</span>
+                          <span>AWS</span>
+                        </div>
                       </div>
 										</article>
 										<!--
