@@ -1,19 +1,25 @@
-# Lukin Personal Homepage
+# lukin.be
 
-## Commands
+Personal website of Maarten Huijsmans.
 
-Build
+## SCSS
+
+Styles are written in SCSS and compiled to CSS. The compiled CSS is checked into the repo.
+
+### Install Dart Sass
+
 ```bash
-hugo -D --minify
+brew install sass/sass/sass
 ```
 
-Dev server
+### Compile SCSS
+
 ```bash
-hugo server --minify --ignoreCache
-hugo server --ignoreCache
+sass scss/main.scss css/main.css --style=compressed --no-source-map
 ```
 
-Dev server with SCSS reload:
+### Watch for changes (during development)
+
 ```bash
-hugo server -w --noHTTPCache --disableFastRender -v
+sass --watch scss/main.scss css/main.css --style=compressed --no-source-map
 ```
